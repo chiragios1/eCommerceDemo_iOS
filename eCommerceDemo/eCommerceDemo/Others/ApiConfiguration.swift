@@ -18,16 +18,13 @@ struct MYError : Error {
 class ApiServicesCommon:  NSObject
 {
     
-    //MARK:- Alamofire
+   
     //MARK:-POST Method
     class func PostURL(url: String, dict:[String: Any] ,completion: @escaping (_ responceData:Dictionary<String, Any>, _ success: Bool, _ error: Error) -> ())
     {
         if ReachabilityHelper.isInternetAvailable()
         {
-            
-            
-            
-            
+              
             // Create a URLRequest with the HTTP method set to POST
             var request = URLRequest(url: URL(string: url)!)
             request.httpMethod = "POST"
@@ -110,4 +107,7 @@ class ApiServicesCommon:  NSObject
             completion(temp as! Dictionary<String, Any>,false,MYError(description: "", domain: ""))
         }
     }
+    
+    
+    
 }

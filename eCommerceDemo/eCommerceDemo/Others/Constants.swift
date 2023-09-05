@@ -16,8 +16,10 @@ struct APIURL
     
 }
 enum AlertTitleMessage {
+    static let Alert_Title = "eCommerceDemo"
      static let INTERNET_ERROR = "You are browsing offline. Please check your internet connection!"
      static let ERROR = "Opps! Something went wrong."
+    static let NoProductFound = "No Product found"
     static let success = "Success"
     static let ok = "OK"
     static let gotIt = "Got It !"
@@ -26,7 +28,7 @@ enum AlertTitleMessage {
     static let no = "No"
     static let cancel = "Cancel"
     static let save = "Save"
-     static let logout = "Are you sure you want to Logout?"
+   
 }
 enum StoryboardId {
     // Login Flow Id's
