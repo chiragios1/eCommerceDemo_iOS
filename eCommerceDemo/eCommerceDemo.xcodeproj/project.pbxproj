@@ -22,6 +22,7 @@
 		8454B45E2AA5A6B4000CB247 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8454B45D2AA5A6B4000CB247 /* Assets.xcassets */; };
 		8454B4612AA5A6B4000CB247 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8454B45F2AA5A6B4000CB247 /* LaunchScreen.storyboard */; };
 		8454B46C2AA5A7C3000CB247 /* Configurations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8454B46B2AA5A7C3000CB247 /* Configurations.swift */; };
+		84A06FE92AA6F8AC0035A865 /* APIClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A06FE82AA6F8AC0035A865 /* APIClientTests.swift */; };
 		985E111F2180F4F8061CF47C /* Pods_eCommerceDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D6708E56EEDAE80AF805BF9 /* Pods_eCommerceDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -46,6 +47,7 @@
 		8454B4602AA5A6B4000CB247 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8454B4622AA5A6B4000CB247 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8454B46B2AA5A7C3000CB247 /* Configurations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Configurations.swift; sourceTree = "<group>"; };
+		84A06FE82AA6F8AC0035A865 /* APIClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClientTests.swift; sourceTree = "<group>"; };
 		9D6708E56EEDAE80AF805BF9 /* Pods_eCommerceDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_eCommerceDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -135,6 +137,7 @@
 				8454B45D2AA5A6B4000CB247 /* Assets.xcassets */,
 				8454B45F2AA5A6B4000CB247 /* LaunchScreen.storyboard */,
 				8454B4622AA5A6B4000CB247 /* Info.plist */,
+				84A06FE82AA6F8AC0035A865 /* APIClientTests.swift */,
 			);
 			path = eCommerceDemo;
 			sourceTree = "<group>";
@@ -287,6 +290,7 @@
 				8454B4592AA5A6B3000CB247 /* ViewController.swift in Sources */,
 				840585EF2AA5BA7C00BA281B /* UIControl+Extension.swift in Sources */,
 				840585F12AA5DB9D00BA281B /* requestModel.swift in Sources */,
+				84A06FE92AA6F8AC0035A865 /* APIClientTests.swift in Sources */,
 				840585E42AA5AFAC00BA281B /* Helper.swift in Sources */,
 				8454B4552AA5A6B3000CB247 /* AppDelegate.swift in Sources */,
 				8454B46C2AA5A7C3000CB247 /* Configurations.swift in Sources */,
