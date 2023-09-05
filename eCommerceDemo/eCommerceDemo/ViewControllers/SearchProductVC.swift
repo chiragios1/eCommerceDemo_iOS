@@ -61,6 +61,9 @@ class SearchProductVC: UIViewController {
             }
         }
     }
+    @IBAction func dismissVC(_ sender: Any) {
+        self.dismiss(animated: true)
+    }
 }
 
 
